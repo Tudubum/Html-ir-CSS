@@ -38,8 +38,13 @@
   }
 }
 @media (min-width: 768px) {
+  #SignUp {
+    hr {
+      width: 90%;
+    }
+  }
   .Container {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 50px 20px 50px;
     display: flex;
     justify-content: center;
 
@@ -51,9 +56,12 @@
     .imageContainer {
       width: 40%;
       height: 60%;
+
       .bgimg {
-        height: 300px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
+        float: right;
+        padding-right: 60px;
       }
     }
   }

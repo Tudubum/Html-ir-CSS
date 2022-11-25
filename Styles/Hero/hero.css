@@ -3,6 +3,11 @@
   padding: 20px 20px 40px 20px;
   display: flex;
 }
+.heroContainer .text {
+  position: relative;
+  width: 70%;
+  padding-right: 0;
+}
 .heroContainer .text h3 {
   color: #ff3998;
   font-size: 14px;
@@ -10,6 +15,7 @@
 }
 .heroContainer .text p {
   font-weight: 400;
+  color: #555555;
 }
 .heroContainer .btn {
   background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgb(254, 77, 106), red, rgb(250, 224, 66)) border-box;
@@ -18,19 +24,19 @@
   padding: 10px 30px;
 }
 .heroContainer .containerImg {
-  display: flex;
-  justify-content: flex-start;
-  float: left;
-  width: 40%;
+  position: relative;
+  float: right;
+  width: 50%;
   height: 60%;
 }
 .heroContainer .containerImg img {
-  margin-top: -70px;
+  margin-top: -60px;
+  shape-outside: circle(50%);
 }
 
 @media (min-width: 768px) {
   .heroContainer {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 50px 20px 50px;
     display: flex;
   }
   .heroContainer .containerImg {

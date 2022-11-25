@@ -4,6 +4,9 @@
   display: flex;
 
   .text {
+    position: relative;
+    width: 70%;
+    padding-right: 0;
     h3 {
       color: #ff3998;
       font-size: 14px;
@@ -11,6 +14,7 @@
     }
     p {
       font-weight: 400;
+      color: #555555;
     }
   }
   .btn {
@@ -22,19 +26,19 @@
     padding: 10px 30px;
   }
   .containerImg {
-    display: flex;
-    justify-content: flex-start;
-    float: left;
-    width: 40%;
+    position: relative;
+    float: right;
+    width: 50%;
     height: 60%;
     img {
-      margin-top: -70px;
+      margin-top: -60px;
+      shape-outside: circle(50%);
     }
   }
 }
 @media (min-width: 768px) {
   .heroContainer {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 50px 20px 50px;
     display: flex;
 
     .containerImg {

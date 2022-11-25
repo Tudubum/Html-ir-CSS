@@ -41,6 +41,9 @@
     padding: 30px 20px 30px 20px;
     font-size: 14px;
     color: rgb(116, 116, 116);
+    .display {
+      display: none;
+    }
   }
 }
 
@@ -63,9 +66,19 @@
       }
     }
   }
-  .copyright {
-    padding: 30px 40px 30px 50px;
-    font-size: 14px;
-    color: rgb(116, 116, 116);
+
+  #footer {
+    padding-right: 50px;
+    padding-left: 50px;
+    .copyright {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 40px 30px 50px;
+      font-size: 14px;
+      color: rgb(116, 116, 116);
+      .display {
+        display: flex;
+      }
+    }
   }
 }
