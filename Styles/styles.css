@@ -1,0 +1,8 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url(../Styles/Navbar/navbar.css);
+@import url(../Styles/Hero/hero.css);
+@import url(../Styles/Main/main.css);
+@import url(../Styles/Gallery/gallery.css);
+@import url(../Styles/SignUp/signup.css);
+@import url(../Styles/Footer/footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");

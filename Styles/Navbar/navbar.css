@@ -1,0 +1,43 @@
+.nav {
+  font-family: "Inter", sans-serif;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav .bars-list {
+  display: none;
+}
+.nav .fa-solid {
+  color: rgb(164, 164, 164);
+  font-size: 26px;
+}
+.nav img {
+  width: 150px;
+  height: 25px;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    padding: 20px 40px 20px 40px;
+  }
+  .nav .fa-solid {
+    display: none;
+  }
+  .nav .bars-list {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav .bars-list div {
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .nav .bars-list div span {
+    color: #ff3998;
+  }
+}/*# sourceMappingURL=navbar.css.map */

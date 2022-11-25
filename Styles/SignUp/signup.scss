@@ -1,0 +1,60 @@
+.Container {
+  font-family: "Inter", sans-serif;
+  padding: 0 0 0 20px;
+  display: flex;
+  .textContainer {
+    h1 {
+      font-size: 36px;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: #ff3998;
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+    p {
+      padding: 0 0 20px 0;
+      font-weight: 400;
+    }
+  }
+  .btn {
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, rgb(254, 77, 106), red, rgb(250, 224, 66))
+        border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+  }
+  .imageContainer {
+    float: right;
+    width: 40%;
+    height: 60%;
+    .bgimg {
+      height: 300px;
+      width: 200px;
+      padding-top: 60px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .Container {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .imageContainer {
+      width: 40%;
+      height: 60%;
+      .bgimg {
+        height: 300px;
+        width: 200px;
+      }
+    }
+  }
+}
